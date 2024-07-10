@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package recipe;
+
+option go_package = "github.com/warmcoldz/cooking/api/recipe";
+
+service RecipeService {
+  rpc GetRecipe (RecipeRequest) returns (RecipeResponse);
+}
+
+message RecipeRequest {
+  int64 id = 1;
+}
+
+message RecipeResponse {
+  string title = 1;
+}
