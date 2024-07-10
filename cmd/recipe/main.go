@@ -5,7 +5,7 @@ import (
 	"log"
 	"net"
 
-	recipe "github.com/warmcoldz/microservices/api/recipe"
+	recipe "github.com/warmcoldz/cooking/api/recipe"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"

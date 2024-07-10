@@ -1,4 +1,4 @@
-module github.com/warmcoldz/microservices
+module github.com/warmcoldz/cooking
 
 go 1.22.5
 
